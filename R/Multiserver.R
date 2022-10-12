@@ -71,6 +71,6 @@ usethis::use_git_config(user.name = "Het Patel",
 gh::gh_whoami()
 
 usethis::use_git()
-
+usethis::use_github()
 
 

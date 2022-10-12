@@ -47,15 +47,13 @@ Multiserver <- function(Arrivals, ServiceTimes, NumServers = 1) {
     # server becomes available again after serving ith customer
     AvailableFrom[ChosenServer[i]] <- ServiceEnds[i]
   }
-  out <- data.frame(Arrivals, ServiceBegins, ChosenServer, ServiceEnds)
+  out <- tibble(Arrivals, ServiceBegins, ChosenServer, ServiceEnds)
   return(out)
 }
 
-
-
-
+usethis::use_package("glue")
 ?Multiserver
-
+library(EX3)
 
 ?bank
 
@@ -72,4 +70,4 @@ gh::gh_whoami()
 usethis::use_git()
 usethis::use_github()
 
-
+usethis::use_readme_rmd()

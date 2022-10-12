@@ -56,15 +56,11 @@ Multiserver <- function(Arrivals, ServiceTimes, NumServers = 1) {
 
 ?Multiserver
 
-usethis::use_testthat()
-usethis::use_test("Multiserver")
 
 ?bank
 
 load("~/Desktop/EX3/data/bank.rda")
 view(bank)
-
-use_data_raw()
 
 
 usethis::use_git_config(user.name = "Het Patel",

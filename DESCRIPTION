@@ -15,3 +15,5 @@ Config/testthat/edition: 3
 Depends: 
     R (>= 2.10)
 LazyData: true
+URL: https://github.com/Het12345678/EX3
+BugReports: https://github.com/Het12345678/EX3/issues

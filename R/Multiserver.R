@@ -67,7 +67,10 @@ use_data_raw()
 usethis::use_git_config(user.name = "Het Patel",
                         user.email = "het.patel2@students.mq.edu.au")
 
+usethis::create_github_token()
 
+gh::gh_whoami()
 
+usethis::use_git()
 
 
